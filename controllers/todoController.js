@@ -14,7 +14,8 @@ var todoSchema = new mongoose.Schema({
 var Todo = mongoose.model('Todo', todoSchema);
 
 //create some Todo's in the database
-var itemOne = Todo({item: 'Testing Tue 15:13'}).save(function(err){
+/* DO I WANT TO REMOVE THIS? */
+var itemOne = Todo({item: 'Testing Wed 07:57'}).save(function(err){
     if (err) throw err;
     console.log('item saved');
 });
